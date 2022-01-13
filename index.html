@@ -1,0 +1,91 @@
+<!DOCTYPE html><!--tells the browser about the document type i.e here html5-->
+<html lang="en" dir="ltr"><!--below it contains html code -->
+  <head><!--has info about webpage and tells how to handle page-->
+    <meta charset="utf-8"><!--all tag inside our webpage is encoded using UTF-8/anything on unicode can be encoded correctly using utf/render info correctly to browsers internationally-->
+    <title> Basic website  </title><!--select html element we want to affect-->
+    <link rel="icon" href="favicon.ico">
+    <!--mention the tag we want to change-->
+    <!--and then what we want to change about it-->
+    <!--good for changing repeated tags instead of writing in each and every tag-->
+    <!--or simply put border-top-style to dotted and border-style to none FOR DOTTED-->
+
+
+
+<link rel="stylesheet" href="css/style.css"><!--gives name of file and mention type .css// and it is inside folder named css-->
+
+
+
+
+  <!--overwrite default browser value -->
+<!--pretty much everything on webpage are boxes//these can be viewed using chrome plugin called pesticide-->
+<!--none changes its ht to 0 pixels-->
+<!--if we dont want to specify/fix the value to 100 px we can write in % which will change acc to size of screen -->
+
+  </head>
+  <body>
+    <table cellspacing = "15"><!--using table/css we can shift our name details next to profile pic-->
+      <tr><!--cellspacing creates gap between cells so here 2 cells so gap b/w 1st and 2nd-->
+
+        <td><img src="KC-modified.png" alt="kc's profile picture"></td>
+        <td><h1>Kartikey</h1>
+        <!--<p><em>Learner at <strong><a href="https://unacademy.com/goal/jee-main-and-advanced-preparation/TMUVD">Unacademy</a></strong></em></p>-->
+        <p> I am currently a <em>second year</em> student pursuing IT engineering @ MUJ </p></td>
+
+          </tr>
+        </table>
+
+          <h3>Education</h3>
+
+          <ul><!--all parts included in bullet list i.e not ordered-->
+          <li>Studied at Central Academy </li>
+          <li>Studied at <a href="https://www.cmseducation.org/campuses/gomtinagar1/index.aspx">CMS</a> </li>
+          <li>Currently studying at <a href="https://jaipur.manipal.edu/">Manipal(Jaipur)</a></li>
+        </ul><!--if not closed even then no error it continues-->
+        <hr>
+          <h3>Work Experience</h3>
+          <table border="1" cellspacing="10"><!-- columns are structured together-->
+            <thead><!--but usually table head body foot are seperated to style them diff/make it function in diff way/EX: isolate header and fix them on screen when body being scrolled-->
+              <tr><!--1st table row begin//i.e going top to bottom rowise-->
+                <th>Date</th><!-- table header cell elements most browsers know these are so not necessary to put these cells inside the table head-->
+                <th>Work</th>
+              </tr><!-- 1st row ends-->
+            <tbody>
+            <tr><!--table rows/row wise entry-->
+              <td>2003-19</td><!--each cell getting placed horizontally creating effectively columns-->
+              <td>Student </td>
+            </tr>
+            <tr>
+              <td>2020-24 </td>
+              <td>Majoring in IT (B-Tech)</td>
+            </tr>
+           </tbody>
+          </table>
+          <hr>
+          <h3>Skills</h3>
+          <table cellspacing="10"><!--cell space so that it looks neat -->
+          <tr>
+            <td>Photography</td>
+            <td> ⭐⭐⭐⭐ </td>
+          </tr>
+          <tr>
+            <td>Web Development</td>
+            <td>⭐⭐⭐⭐ </td>
+          </tr>
+          <tr>
+            <td>Graphic des</td>
+            <td>⭐⭐⭐  </td>
+          </tr>
+        </table>
+      <ul>
+
+         <br>
+          <a href="hobbies.html">My hobbies</a>
+        <!--sc can either be a URL so fetch it from internet or local image included in same directory as website-->
+        <!--hypertext is basically just a bunch of text documents that can be linked together using hyperlinks (linked text i.e text to text)/HT part of html-->
+        <!--by convention highlight is *(blue=Not clicked on it in past)/(purple=clicked in past ) -->
+        <!--If seperate page for hobbies section create a link that linked to my own page//create a file inside same folder at same heirarchical level-->
+          <br>
+          <a href="contacts.html">contacts</a><!--these anchor tags can take us to ext/internal sites(as given here)--><br>
+          <a href="inputs.html">Inputs</a><!-- need a text to be highlighted and shown to be clicked on website-->
+        </body>
+      </html>
